@@ -1,4 +1,4 @@
-# 🤖 Proyecto: Control de Servomotor vía RS232 – Raspberry Pi Pico
+# Proyecto: Control de Servomotor vía RS232 – Raspberry Pi Pico
 
 Este proyecto implementa un sistema de control de posición  para un servomotor utilizando una **Raspberry Pi Pico**  y
 comunicación serie **RS232**. Una **PC** envía el valor de un ángulo (en grados) mediante UART, y la Raspberry Pi Pico 
@@ -6,7 +6,7 @@ interpreta ese valor para posicionar el servomotor en la posición correspondien
 
 ---
 
-## 🧩 Descripción del sistema
+## Descripción del sistema
 
 - La **PC** envía un valor numérico (ej. `90`) por el puerto serie.
 - La **Raspberry Pi Pico** recibe este valor usando su UART.
@@ -26,7 +26,7 @@ interpreta ese valor para posicionar el servomotor en la posición correspondien
 
 ---
 
-## 🔌 Conexiones principales
+## Conexiones principales
 
 | Componente         | Raspberry Pi Pico |
 |--------------------|------------------|
@@ -37,7 +37,7 @@ interpreta ese valor para posicionar el servomotor en la posición correspondien
 
 ---
 
-## 💾 Archivos importantes
+## Archivos importantes
 
 - `main.c`: lógica principal del sistema
 - `servo.c/.h`: funciones para generar señal PWM y controlar el servo
@@ -46,9 +46,9 @@ interpreta ese valor para posicionar el servomotor en la posición correspondien
 
 ---
 
-## 🖼️ Diagrama del circuito
+## Diagrama del circuito
 
-![Montaje del sistema](img/montaje.png)
+![Montaje del sistema](img/montaje.jpg)
 
 
 ---
